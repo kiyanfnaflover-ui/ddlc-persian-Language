@@ -1,0 +1,147 @@
+Status: 200, HTML length: 215090
+
+=== FIRST 3000 CHARS ===
+
+<!DOCTYPE html><html lang="en" data-beasties-container><head>
+    <meta charset="utf-8">
+    <title>Rule 34 World</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Тема — до первой отрисовки, иначе юзер со светлой темой видит тёмную вспышку
+         (SSR-HTML всегда с CSS-дефолтом dark). Дублирует ThemeService.apply().
+         Второй getItem — legacy-имя ключа: до миграции (её делает ThemeService.init)
+         значение может лежать под ним. -->
+    <script>
+      try {
+        var t = localStorage.getItem('app:appearance:theme') || localStorage.getItem('appTheme');
+        if (t === 'light' || t === 'dark') document.documentElement.style.colorScheme = t;
+        else if (t === 'system') document.documentElement.style.colorScheme = 'light dark';
+      } catch (e) {
+        /* localStorage недоступен — остаёмся на дефолте */
+      }
+    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#721199">
+  <style>*,*:before,*:after{box-sizing:border-box}html{-webkit-tap-highlight-color:transparent;scrollbar-gutter:stable}a{text-decoration:none}button{color:inherit}h3{font:400 16px/28px Roboto,sans-serif;letter-spacing:.009375em;margin:0 0 16px}h4{font:400 14px/24px Roboto,sans-serif;letter-spacing:.03125em;margin:0 0 16px}:root{--mat-text-button-horizontal-padding: 16px;--mat-dialog-container-shape: 8px;--mat-dialog-container-max-width: 80vw;--mat-toolbar-standard-height: 64px}:root{--mat-card-elevated-container-color: var(--mat-sys-surface-container-high);--mat-card-elevated-container-elevation: var(--mat-sys-level1);--mat-expansion-container-background-color: var(--r-card-background);--mat-expansion-container-elevation-shadow: var(--mat-sys-level1);--mat-dialog-container-color: var(--mat-sys-surface-container);--r-app-background: var(--mat-sys-surface);--r-blur-background: color-mix(in srgb, var(--r-app-background) 72%, transparent);--r-sheet-background: var(--r-app-background);--r-box-background: var(--mat-sys-surface-container-high);--r-box-details-background: color-mix(in srgb, var(--mat-sys-surface-container) 72%, transparent);--r-box-details-background--hover: color-mix( in srgb, var(--mat-sys-surface-container) 72%, var(--mat-sys-on-surface) );--r-box-details-background--active: color-mix( in srgb, var(--mat-sys-surface-container) 62%, var(--mat-sys-on-surface) );--r-box-details-label-color: var(--mat-sys-on-surface);--r-card-background: var(--mat-sys-surface-container-high);--r-card-background--hover: var(--mat-sys-surface-container);--r
+
+=== Found 3 script tags ===
+
+Script 0 (386 chars): 
+      try {
+        var t = localStorage.getItem('app:appearance:theme') || localStorage.getItem('appTheme');
+        if (t === 'light' || t === 'dark') document.documentElement.style.colorScheme = t;
+        else if (t === 'system') document.documentElement.style.colorScheme = 'light dark';
+      
+
+Script 1 (0 chars): 
+
+Script 2 (15619 chars): {"app-config":{"siteTitle":"Rule 34 World","siteUrl":"https://rule34.world","seoDescription":"Rule 34 - If it exists, there is porn of it. We aspire to be the biggest image archive of rule34 content.","keyWords":"anime, hentai, porn, cartoons, my little pony, overwatch, pokemon, naruto, animated","s
+
+=== Found 19 img tags ===
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365842/1365842.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365839/1365839.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365838/1365838.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365837/1365837.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365836/1365836.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365835/1365835.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365832/1365832.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365830/1365830.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365829/1365829.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365827/1365827.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365826/1365826.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365824/1365824.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365822/1365822.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365821/1365821.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365819/1365819.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365818/1365818.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365814/1365814.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365811/1365811.pic256.jpg">
+  <img _ngcontent-ng-c3667125909 loading="lazy" class="img" style="aspect-ratio: 1 / 1;" src="/posts/1365/1365810/1365810.pic256.jpg">
+
+=== Found 1 image/video URLs ===
+  https://rule34.world/assets/icons/icon-512x512.jpg
+
+=== Post references: 153 ===
+  /app-root-post-filters
+  /post/1365842
+  /posts/1365/1365842/1365842.pic256avif.avif
+  /posts/1365/1365842/1365842.pic256.jpg
+  /app-post-grid-preview-image
+  /app-post-grid-item-info
+  /post/1365841
+  /posts/1365/1365841/1365841.pic256.jpg
+  /posts/1365/1365841/1365841.mov256.mp4
+  /app-post-grid-preview-image
+  /app-post-grid-item-info
+  /post/1365840
+  /posts/1365/1365840/1365840.pic256.jpg
+  /posts/1365/1365840/1365840.mov256.mp4
+  /app-post-grid-preview-image
+  /app-post-grid-item-info
+  /post/1365839
+  /posts/1365/1365839/1365839.pic256avif.avif
+  /posts/1365/1365839/1365839.pic256.jpg
+  /app-post-grid-preview-image
+  /app-post-grid-item-info
+  /post/1365838
+  /posts/1365/1365838/1365838.pic256avif.avif
+  /posts/1365/1365838/1365838.pic256.jpg
+  /app-post-grid-preview-image
+  /app-post-grid-item-info
+  /post/1365837
+  /posts/1365/1365837/1365837.pic256avif.avif
+  /posts/1365/1365837/1365837.pic256.jpg
+  /app-post-grid-preview-image
+
+=== All href links: 70 ===
+  /
+  favicon.ico
+  https://fonts.googleapis.com
+  https://fonts.gstatic.com
+  https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap
+  https://fonts.googleapis.com/icon?family=Material+Icons
+  manifest.webmanifest
+  styles-TRHWCBFB.css
+  styles-TRHWCBFB.css
+  https://rule34.world/
+  /
+  /highest
+  /hot
+  /playlists
+  /trends
+  /comments
+  /
+  /highest
+  /hot
+  /playlists
+  /trends
+  /comments
+  /announcements
+  /upgrade-to-premium
+  /auth/login
+  /auth/register
+  /post/1365842
+  /post/1365841
+  /post/1365840
+  /post/1365839
+  /post/1365838
+  /post/1365837
+  /post/1365836
+  /post/1365835
+  /post/1365833
+  /post/1365832
+  /post/1365830
+  /post/1365829
+  /post/1365828
+  /post/1365827
+
+=== Window __STATE__ blobs: 0 ===
+
+=== BODY content (79308 chars) ===
+<!--nghm-->
+    <app-root ng-version="21.1.2" ngh="31" ng-server-context="ssr"><router-outlet></router-outlet><app-root-layout-page _nghost-ng-c4161513018 ngh="30"><div _ngcontent-ng-c4161513018 class="root"><mat-toolbar _ngcontent-ng-c4161513018 class="mat-toolbar toolbar mat-toolbar-single-row" ngh="0"><button _ngcontent-ng-c4161513018 mat-icon-button class="mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-unthemed" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" mat-ripple-loader-centered ngh="1"><span class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"></span><mat-icon _ngcontent-ng-c4161513018 role="img" class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font" ngh="0">menu</mat-icon><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></button><div _ngcontent-ng-c4161513018><a _ngcontent-ng-c4161513018 mat-button class="mdc-button mat-mdc-button-base site-name mat-mdc-button mat-unthemed" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/" ngh="2"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">Rule 34 World</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a></div><div _ngcontent-ng-c4161513018 class="pc-header"><a _ngcontent-ng-c4161513018 mat-button class="mdc-button mat-mdc-button-base item mat-mdc-button mat-unthemed" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/highest" ngh="3"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span _ngcontent-ng-c4161513018 translate="no" class="material-icons icon">star_border</span><span class="mdc-button__label"><span _ngcontent-ng-c4161513018>Highest rated posts</span></span><span class="mat-focus-indicator"></span><span class="mat-mdc-butto
