@@ -1,5 +1,6 @@
-# ddlc-persian-Language
-this a file for add persian Language to ddlc 
+# DDLC Persian Language
+
+A fan-made Ren'Py mod that adds **Persian (فارسی)** as a fully selectable language to **Doki Doki Literature Club** without replacing the original English language.
 
 # 🎀 DDLC Persian Language Mod
 
@@ -7,7 +8,7 @@ this a file for add persian Language to ddlc
 
 <img src="images/banner.png" alt="DDLC Persian Language Mod Banner" width="100%">
 
-# 🇮🇷 Persian Language Support for Doki Doki Literature Club
+## 🇮🇷 Persian Language Support for Doki Doki Literature Club
 
 **Adds Persian as a fully selectable language inside the game's Settings menu without replacing the original English language.**
 
@@ -44,15 +45,9 @@ The original English localization remains completely intact.
 
 # 📸 Preview
 
-The project banner is shown at the top of this page.
+The project banner is displayed at the top of this page.
 
-You can also add gameplay screenshots inside the `images` folder and display them here.
-
-Example:
-
-```md
-<img src="images/screenshot1.png" width="90%">
-```
+Additional screenshots can be added to the `images` folder.
 
 ---
 
@@ -85,11 +80,11 @@ DDLC-Persian-Language
 3. Launch the game.
 4. Open:
 
-```
+```text
 Settings
-      ↓
+   ↓
 Language
-      ↓
+   ↓
 فارسی (Persian)
 ```
 
@@ -99,9 +94,7 @@ Language
 
 # 🎯 Project Goal
 
-The goal of this project is to provide a high-quality Persian localization while preserving the original DDLC experience.
-
-Instead of replacing English, Persian becomes an official selectable language inside the game.
+Provide a clean, high-quality Persian localization while preserving the original DDLC experience.
 
 ---
 
@@ -115,17 +108,13 @@ Instead of replacing English, Persian becomes an official selectable language in
 
 # ❤️ Contributing
 
-Pull Requests, Issues and Suggestions are always welcome.
-
-If you'd like to improve the project, feel free to fork it and submit a pull request.
+Pull requests, issues, and suggestions are always welcome.
 
 ---
 
 # ⭐ Support
 
-If you enjoy this project, don't forget to leave a ⭐ on GitHub!
-
-It helps the project grow and reach more DDLC fans.
+If you enjoy this project, please consider leaving a ⭐ on GitHub!
 
 ---
 
@@ -133,7 +122,7 @@ It helps the project grow and reach more DDLC fans.
 
 **Created with ❤️ by k_F_**
 
-GitHub: **https://github.com/k_F_**
+GitHub: **https://github.com/kiyanfnaflover-ui**
 
 ---
 
@@ -143,5 +132,4 @@ This is a fan-made project.
 
 Doki Doki Literature Club and all related assets belong to Team Salvato.
 
-This repository only provides additional localization files and does not claim ownership of the original game.
-
+This repository only provides localization files and does not claim ownership of the original game.
